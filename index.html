@@ -6,12 +6,26 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="Description" content="Enter your description here"/>
     <link rel="stylesheet" href="develop/assets/css/style.css">
-    <!-- <link rel="stylesheet" href="develop/assets/css/reset.css"> -->
+    <link rel="stylesheet" href="develop/assets/css/reset.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <title>HEBOFSKY: Home</title>
 </head>
 <body>
+  <script type="text/javascript">
+        var passAns = prompt("Submit correct password to enter");
+        const password = "Hebofsky"
+
+        if (passAns === password) {
+          alert("Correct! Welcome to the site");
+        }
+        else {
+          alert("WRONG!");
+          // passAns; loop to answer until correct
+        }
+
+
+  </script>
     <header>
         <!-- <h1>Welcome to the landing page!</h1> -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -40,7 +54,7 @@
           </nav>
     </header>
 
-    <div id="section-one">
+    <div>
       <section>
         <div class="jumbotron jumbotron-fluid">
           <div class="container">
@@ -50,6 +64,7 @@
         </div>
       </section>
     </div>
+
     <footer>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
